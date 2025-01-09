@@ -6,6 +6,6 @@ def main():
     answer = input()
     print("Great! You said {}?".format(answer))
     print("Let’s start learning some Python today")
-    
+
 if __name__ == "__main__":
     main()

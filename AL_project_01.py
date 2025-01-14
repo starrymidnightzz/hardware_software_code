@@ -1,5 +1,3 @@
-# Python is a computer programming language that lets you work swiftly and integrate systems more efficiently.
-
 # <Saving this coding example (perhaps for something in the future?)>
 # "So your name is {}".format(name), "and you currently go to {}".format(school)?
 
@@ -28,7 +26,7 @@ def main():
     college = input()
 
     print()
-    print("It's great to get to know you more! I've learned that your name is {},".format(name.capitalize()), "you attended {}".format(school), "for high school, and you're currently attending {}.".format(college))
+    print("It's great to get to know you more! I've learned that your name is {},".format(name.capitalize()), "you attended {}".format(school.capitalize()), "for high school, and you're currently attending {}.".format(college.capitalize()))
     print("It was fun getting to know you.")
     print("Now let's get started!")
 

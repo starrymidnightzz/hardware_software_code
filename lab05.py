@@ -3,7 +3,7 @@ def main():
     trees = 10
     plants = flowers + trees
     print(plants)
-
+ 
     number1 = "rose"
     number2 = "wood"
     number3 = number1 + number2

@@ -5,6 +5,7 @@ def greeting(name):
 
 def main():
     greeting(input("What is your name?"))
+    greeting(input("What is your name?"))
 
 if __name__ == "__main__":
     main()

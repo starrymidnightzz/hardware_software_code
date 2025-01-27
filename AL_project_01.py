@@ -11,7 +11,6 @@ def main():
     print()
     print("Great! You said {}?".format(answer))
     print("Let’s start learning some Python today. But before that, I would like for you to answer a few questions first.")
-    blank = input()
 
     print()
     print("What's your name?")

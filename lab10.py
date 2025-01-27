@@ -1,5 +1,5 @@
 def main():
-    print("This program adds two numbers. ")
+    print("This program adds two numbers.")
 
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
@@ -8,5 +8,9 @@ def main():
 
     print("{} + {} = {}".format(num1, num2, total))
 
+
 if __name__ == "__main__":
     main()
+
+
+# figure out how to loop the code

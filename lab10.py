@@ -4,8 +4,8 @@ def main():
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
 
-    total = num1 + num2
-    
+    total = int(num1) + int(num2)
+
     print("{} + {} = {}".format(num1, num2, total))
 
 if __name__ == "__main__":

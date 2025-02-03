@@ -8,10 +8,17 @@ def main():
 
     print("{} + {} = {}".format(num1, num2, total))
 
+def while_loop(num):
+    count = 0
+    run_loop = main()
+
+    while run_loop != 'exit':
+        run_loop = main()
+
 if __name__ == "__main__":
     main()
 
-    # find out how to loop code 
+    # find out how to loop code
 
 # def while_loop(num):
     # while num > 0:

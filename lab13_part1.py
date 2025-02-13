@@ -1,5 +1,5 @@
 def greetings():
-    print(" Give me two numbers and I will tell you the largest number!.")
+    print("Give me two numbers and I will tell you the largest number!.")
 
 def get_largest(largest, value):
     if largest is None:

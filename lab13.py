@@ -1,7 +1,7 @@
 import lab13_part1 as p1
 
 def greetings():
-    print(" Give me two numbers and I will tell you the largest and smallest number!.")
+    print("Give me two numbers and I will tell you the largest and smallest number!.")
 
 def get_smallest(smallest, value):
     if smallest is None:

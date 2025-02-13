@@ -10,7 +10,16 @@ def binary_to_decimal(number):
 def main():
     num = input ("Enter Binary Number: ")
     binary_num = binary_to_decimal(num)
-    print("Binary {} to Decimal: {}". format(num, binary_num) )
+    print("Binary {} to Decimal: {}". format(num, binary_num))
+
+    return input("Type 'exit' to leave program.")
+
+def loop():
+    run_loop = main()
+    while run_loop != 'exit':
+        run_loop = main()
 
 if __name__ == "__main__":
     main()
+    loop()
+    

@@ -32,6 +32,8 @@ def main():
     print("Goodbye!!")
     print("Come back when you have more numbers :]")
 
+    input("Press enter to close command prompt.")
+
 if __name__ == "__main__":
     main()
 

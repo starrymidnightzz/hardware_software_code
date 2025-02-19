@@ -7,19 +7,17 @@ def binary_to_decimal(number):
             power -= 1 # decrease by 1
     return result # if in 'for' command, returns result as 'None'
 
-def main():
+def binary():
     num = input ("Enter Binary Number: ")
     binary_num = binary_to_decimal(num)
     print("Binary {} to Decimal: {}". format(num, binary_num))
 
     return input("Type 'exit' to leave program.")
 
-def loop():
-    run_loop = main()
+def main():
+    run_loop = binary()
     while run_loop != 'exit':
-        run_loop = main()
+        run_loop = binary()
 
 if __name__ == "__main__":
     main()
-    loop()
-    

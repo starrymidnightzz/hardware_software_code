@@ -13,7 +13,7 @@ def check_number(number_str):
     else:
         check_number(input("Invalid Number, Try again!!! "))
 
-def main():
+def generate_number():
     random_number = generate_random()
     choice = input("Please enter a number between 1 - 20: ")
     check_number(choice)
@@ -26,11 +26,12 @@ def main():
 
     return input("Type 'exit' to end program.")
 
-def loop():
-    run_loop = main()
+def main():
+    count = 0
+    run_loop = generate_number()
+
     while run_loop != 'exit':
-        run_loop = main()
+        run_loop = generate_number()
 
 if __name__ == "__main__":
     main()
-    loop()

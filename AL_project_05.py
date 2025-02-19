@@ -22,11 +22,11 @@ def calculate():
     print("Let's do some adding!")
     print("{} + {} = {}".format(num1, num2, total))
 
-    return input("Type 'exit' to leave program.")
+    return input("Type 'done' to leave program.")
 
 def main():
     run_loop = calculate()
-    while run_loop != 'exit':
+    while run_loop != 'done':
         run_loop = calculate()
 
     print("Goodbye!!")

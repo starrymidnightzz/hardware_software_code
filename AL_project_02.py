@@ -22,6 +22,9 @@ def main():
 
     print("Thanks for chatting with me, {}".format(name))
     print("You answered", str(count), "questions.")
+    print()
+
+    input("Press enter to close command prompt.")
 
 if __name__ == "__main__":
     main()
